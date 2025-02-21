@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(assets/scss/_grid.scss);
+@import url(assets/scss/_vars.scss);
+@import url(assets/scss/_class.scss);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
